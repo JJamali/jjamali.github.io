@@ -54,11 +54,10 @@ html, body {
 
 .page-container > .content{
 	flex: 1 0 auto;
-	height: 65vh;
 }
 
 .projects-container{
-	padding: 10px 50px 10px 50px;
+	padding: 0 50px 0 50px;
 	background-color: #ADD9E6;
 	border: solid 1px;
 	justify-content: center;
@@ -89,10 +88,14 @@ html, body {
   flex-shrink: 0;
 	justify-content: center;
 	vertical-align: middle;
-	align-items: center; 
+	align-items: center;
 	display: flex;
 }
 
 .vcenter{
-
+	justify-content: center;
+	vertical-align: middle;
+	align-items: center;
+	display: flex;
+	height: 100%;
 }
