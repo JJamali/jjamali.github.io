@@ -4,8 +4,15 @@
 	font-family: Trebuchet MS;
 }
 
-html, body{
-	height:100%;
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+.page-container{
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
 }
 
 .menu-container{
@@ -45,12 +52,18 @@ html, body{
 		margin-top:10px;
 }
 
+.page-container > .content{
+	flex: 1 0 auto;
+	height: 65vh;
+}
+
 .projects-container{
-	padding: 10px 50px 50px 50px;
+	padding: 10px 50px 10px 50px;
 	background-color: #ADD9E6;
 	border: solid 1px;
 	justify-content: center;
-	height: 50%;
+	flex-grow: 1;
+	height: 100%
 }
 
 .project-grid {
@@ -59,12 +72,27 @@ html, body{
   align-items: center;
   flex-wrap: wrap;
 	justify-content: space-around;
+	vertical-align: middle;
 }
 
 .project-grid-item {
   border: 1px solid #fff;
-  width: 250px;
-  height: 425px;
-	padding: 0 30px 30px 30px;
+  width: 350px;
+  height: 500px;
 	margin-top: 30px;
+}
+
+.page-container > .footer{
+	background-color: #EEE;
+	border: solid 1px;
+	height: 100px;
+  flex-shrink: 0;
+	justify-content: center;
+	vertical-align: middle;
+	align-items: center; 
+	display: flex;
+}
+
+.vcenter{
+
 }
