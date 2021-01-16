@@ -26,6 +26,20 @@ html, body {
 	position: relative;
 }
 
+.title{
+	display: flex;
+	flex-direction: row;
+}
+
+.title-text{
+	height: 100%;
+}
+
+.mylogo{
+	height: 100%;
+	padding-right: 20px;
+}
+
 .menu-right{
   width: 50%;
   display: inline-block;
@@ -35,11 +49,6 @@ html, body {
 
 .name{
   font-size: 50px;
-}
-
-.description{
-  font-size: 20px;
-	text-align: center;
 }
 
 .links{
