@@ -7,6 +7,7 @@
 html, body {
   margin: 0;
   height: 100%;
+	background-color: #ADD8E6;
 }
 
 .page-container{
@@ -16,19 +17,16 @@ html, body {
 }
 
 .menu-container{
-  background-color: #ADD8E6;
   height: 20%;
-  padding: 50px 50px 50px 50px;
+  margin: 50px 50px 50px 50px;
   display: flex;
-}
-
-.menu-left{
-  border: solid 1px;
-  width: 50%;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
 }
 
 .menu-right{
-  border: solid 1px;
   width: 50%;
   display: inline-block;
   text-align: right;
@@ -44,8 +42,9 @@ html, body {
 }
 
 .links{
-  align-self: flex-end;
-  float: right;
+	position: absolute;
+  top: 0;
+  right: 0;
 }
 
 .divider{
@@ -55,9 +54,8 @@ html, body {
 .page-container > .content{
   flex: 1 0 auto;
   display: flex;
-  background-color: #ADD9E6;
-  border: solid 1px;
 }
+
 .page-container > .content > div {
   flex: 1;
 }
@@ -77,26 +75,37 @@ html, body {
 }
 
 .project-grid-item {
-  padding: 5px;
+  padding: 8px;
+	border-radius: 5px;
 	background-color: #fff;
   width: 350px;
   margin-top: 30px;
   margin-bottom: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
 	display: flex;
 	flex-direction: column;
 }
 
-.project-title{
-	justify-content: center;
-	font-size: 20px;
-	height: 5%;
-	margin-bottom: 10px;
-	margin-top: 5px;
-	display: flex;
+.project-grid-item:hover {
+	background-color: #CAD6DA;
+	transition: background-color 0.75s;
+	box-shadow: 4px 4px #597077;
 }
 
-.project-title > a{
-	float: right;
+.project-title{
+	font-size: 20px;
+	height: 30px;
+  position: relative;
+}
+.project-title > div {
+  display: flex;
+  justify-content: center;
+}
+.project-title > a {
+	position: absolute;
+  top: 0;
+  right: 0;
 }
 
 .project-image{ /*standardized to be square, will be 350px by 350px*/
@@ -110,15 +119,13 @@ html, body {
 
 /*.page-container >*/
 .footer{
-  background-color: #ADD9E6;
-  border: solid 1px;
   height: 100px;
 	flex-shrink: 0;
   justify-content: center;
   vertical-align: middle;
   align-items: center;
   display: flex;
-	color: #AFADE6;
+	color: #839FA8;
 }
 
 .footer: hover {
