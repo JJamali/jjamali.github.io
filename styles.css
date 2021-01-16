@@ -115,6 +115,7 @@ html, body {
 .description{
 	flex-grow: 1;
 	font-size: 15px;
+	margin-top: 2px;
 }
 
 /*.page-container >*/
