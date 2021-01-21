@@ -1,25 +1,25 @@
 *{
-  margin: 0;
-  padding: 0;
-  font-family: Trebuchet MS;
+	margin: 0;
+	padding: 0;
+	font-family: Trebuchet MS;
 }
 
-html, body {
-  margin: 0;
-  height: 100%;
+html, body{
+	margin: 0;
+  	height: 100%;
 	background-color: #ADD8E6;
 }
 
 .page-container{
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
 }
 
 .menu-container{
-  height: 20%;
-  margin: 50px 50px 50px 50px;
-  display: flex;
+	height: 20%;
+	margin: 50px 50px 50px 50px;
+	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
@@ -33,7 +33,7 @@ html, body {
 
 .title-text{
 	height: 100%;
-  margin-right: 90px;
+  	margin-right: 90px;
 }
 
 .mylogo{ /* Set to be 90px */
@@ -42,64 +42,64 @@ html, body {
 }
 
 .menu-right{
-  width: 50%;
-  display: inline-block;
-  text-align: right;
-  justify-content: space-between;
+	width: 50%;
+	display: inline-block;
+	text-align: right;
+	justify-content: space-between;
 }
 
 .name{
-  font-size: 50px;
+  	font-size: 50px;
 }
 
 .links{
 	position: absolute;
-  top: 0;
-  right: 0;
+	top: 0;
+	right: 0;
 }
 
 .divider{
-  margin-top:10px;
+ 	margin-top:10px;
 }
 
 .page-container > .content{
-  flex: 1 0 auto;
-  display: flex;
+	flex: 1 0 auto;
+	display: flex;
 }
 
-.page-container > .content > div {
-  flex: 1;
+.page-container > .content > div{
+  	flex: 1;
 }
 
 .projects-container{
-  padding: 0 50px 0 50px;
-  width: 100%;
+  	padding: 0 50px 0 50px;
+  	width: 100%;
 }
 
-.project-grid {
+.project-grid{
 	display: flex;
-  flex-direction: row;
-  align-items: stretch;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  vertical-align: middle;
+	flex-direction: row;
+	align-items: stretch;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	vertical-align: middle;
 }
 
-.project-grid-item {
-  padding: 8px;
+.project-grid-item{
+  	padding: 8px;
 	border-radius: 5px;
 	background-color: #fff;
-  width: 350px;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  margin-left: 10px;
-  margin-right: 10px;
+	width: 350px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 10px;
+	margin-right: 10px;
 	display: flex;
 	flex-direction: column;
-  cursor: pointer;
+  	cursor: pointer;
 }
 
-.project-grid-item:hover {
+.project-grid-item:hover{
 	background-color: #CAD6DA;
 	transition: background-color 0.75s;
 	box-shadow: 4px 4px #597077;
@@ -108,16 +108,16 @@ html, body {
 .project-title{
 	font-size: 20px;
 	height: 30px;
-  position: relative;
+  	position: relative;
 }
-.project-title > div {
-  display: flex;
-  justify-content: center;
+.project-title > div{
+  	display: flex;
+  	justify-content: center;
 }
-.project-title > a {
+.project-title > a{
 	position: absolute;
-  top: 0;
-  right: 0;
+  	top: 0;
+  	right: 0;
 }
 
 .project-image{ /*standardized to be square, will be 350px by 350px*/
@@ -133,18 +133,18 @@ html, body {
 
 /*.page-container >*/
 .footer{
-  height: 100px;
+  	height: 100px;
 	flex-shrink: 0;
-  justify-content: center;
-  vertical-align: middle;
-  align-items: center;
-  display: flex;
+  	justify-content: center;
+  	vertical-align: middle;
+  	align-items: center;
+  	display: flex;
 	color: #839FA8;
 }
 
 .vcenter{
-  justify-content: center;
-  vertical-align: middle;
-  align-items: center;
-  display: flex;
+  	justify-content: center;
+  	vertical-align: middle;
+  	align-items: center;
+  	display: flex;
 }
