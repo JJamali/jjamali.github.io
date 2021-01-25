@@ -66,6 +66,7 @@ html, body{
 	align-items: center;
 	padding: 7px;
 	border-radius: 5px;
+	display: inline-flex;
 }
 
 .link-card:hover{
