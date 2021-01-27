@@ -124,6 +124,8 @@ html, body {
 .project-title > div {
 	display: flex;
 	justify-content: center;
+	margin: 20px;
+	text-align: center;
 }
 
 .project-title > a {
